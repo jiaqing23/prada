@@ -35,7 +35,7 @@ const Platform = ({ page, setPage }) => {
             <span className="companyIndustryTitle">Company Industries</span>
             <span className="companyIndustry">
               Artificial Intelligence | Machine Learning | Natural Language
-              Processing | Productivity |
+              Processing | Productivity
             </span>
           </div>
         </div>

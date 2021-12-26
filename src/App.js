@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import FooterBar from "./components/Footer";
-import TestPage from "./pages/TestPage";
+import HomePage from "./pages/HomePage";
 import ContactPage from "pages/ContactPage";
 import CompanyPage from "pages/CompanyPage";
 import CompanyDetail from "pages/CompanyDetail";
@@ -10,9 +10,8 @@ import CompanyDetail from "pages/CompanyDetail";
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
-        <Route path="/" element={<TestPage title={"Home Page"} />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/company" element={<CompanyPage default={"Company"} />} />
         <Route
           path="/company/:tab"

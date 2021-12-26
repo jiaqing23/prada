@@ -1,11 +1,26 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/img/logo.png";
+import { makeStyles } from "@material-ui/styles";
 import "./Navbar.css";
 
+const useStyles = makeStyles((theme) => ({
+  navbar: {
+    zIndex: 10,
+    position: "absolute",
+    width: "100%",
+    height: "120px",
+    padding: "20px",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-around",
+  },
+}));
+
 const Navbar = () => {
+  const classes = useStyles();
   return (
-    <div className="navbarPlatform">
+    <div className={classes.navbar}>
       <div className="navbarPlatformTopRow">
         <div>
           <img src={Logo} alt="" />
@@ -27,14 +42,6 @@ const Navbar = () => {
             EN <i class="fas fa-chevron-down"></i>
           </p>
           <button>Login</button>
-        </div>
-      </div>
-      <div className="navbarPlatformBottomRow">
-        <div>
-          <p>RESEARCH (COMPANY / RESEARCH NAME)</p>
-          <button>
-            <i class="fas fa-search"></i> SEARCH
-          </button>
         </div>
       </div>
     </div>

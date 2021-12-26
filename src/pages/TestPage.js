@@ -1,11 +1,25 @@
 import React from "react";
-// @mui/material components
 import { makeStyles } from "@material-ui/styles";
 import Grid from "@mui/material/Grid";
 
-import styles from "assets/jss/pages/testPage.js";
+import { title } from "assets/jss/material-kit-react.js";
 
-const useStyles = makeStyles(styles);
+const useStyles = makeStyles(() => ({
+  section: {
+    padding: "70px 0",
+    textAlign: "center",
+  },
+  title: {
+    ...title,
+    marginBottom: "1rem",
+    marginTop: "30px",
+    minHeight: "32px",
+    textDecoration: "none",
+  },
+  description: {
+    color: "#999",
+  },
+}));
 
 export default function TestPage(props) {
   const classes = useStyles();
