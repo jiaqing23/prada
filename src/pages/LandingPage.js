@@ -8,10 +8,12 @@ export default function LandingPage(props) {
   const classes = useStyles();
   return (
     <div className="App" style={{ backgroundColor: "#FFFFFF" }}>
-      <Parallax
-        filter
-        image={require("../assets/img/landing-bg.jpg").default}
-      ></Parallax>
+      <img 
+      className={"background"} 
+      src={require('../assets/img/bg.png').default} 
+      style={{width: "100%"}}
+      alt=""/>
+
       <div className={classNames(classes.main)}>
         <div className={classes.container}>{props.child}</div>
       </div>
