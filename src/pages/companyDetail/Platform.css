@@ -1,0 +1,154 @@
+.pradaRankContainer {
+  padding: 20px;
+  padding-left: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pradaRank > h4 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.pradaRankNum {
+  color: grey;
+}
+
+.pradaRankNum > span {
+  font-size: 70px;
+  font-weight: 600;
+  margin-right: 5px;
+  color: royalblue;
+}
+
+.pradaRankChart {
+  display: flex;
+}
+
+.grammarlyBar {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.grammarlyBar > * {
+  width: 16.666%;
+  font-weight: 600;
+  border: none;
+  padding: 15px 25px;
+  border-top: 2px lightgray solid;
+  border-right: 2px solid lightgray;
+  position: relative;
+  background-color: white;
+}
+
+.grammarlyBarHidden {
+  display: none;
+  width: 70%;
+  height: 5px;
+  background-color: #0a1b50;
+  border-radius: 100px;
+  position: absolute;
+  bottom: 0;
+}
+
+.grammarlyBarSelected {
+  display: block;
+}
+
+.grammarlyBar > button {
+  display: flex;
+  justify-content: center;
+}
+
+.productInfoContainer {
+  width: 100%;
+  background-color: #f4f6fa;
+  padding: 50px 100px;
+}
+
+.productInfo {
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+.productInfoHeader {
+  padding: 10px 20px;
+  padding-top: 20px;
+  border-bottom: 2px solid grey;
+}
+
+.productInfoHeader > h5 {
+  font-weight: 600;
+  font-size: 23px;
+  color: #0a1b50;
+}
+
+.productInfoBody {
+  padding: 20px 25px;
+}
+
+.productInfoBody > p {
+  color: black;
+  font-weight: 550;
+  line-height: 1.5;
+}
+
+.industryRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.industry {
+  padding: 10px 30px;
+  border: grey solid 2px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.industry > p {
+  margin-bottom: 0;
+  font-weight: 550;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+.speciality {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.speciality > img {
+  width: 40px;
+  height: 40px;
+}
+
+.speciality > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.speciality > div > p {
+  color: grey;
+  font-size: 10px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.speciality > div > p:first-child {
+  font-weight: 600;
+  color: black;
+  font-size: 17px;
+}

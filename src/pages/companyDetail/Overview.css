@@ -1,34 +1,3 @@
-.grammarlyHeader {
-  width: 100%;
-  background-image: url('../assets/Background.png');
-  height: 200px;
-  display: flex;
-  align-items: flex-end;
-  position: relative;
-  font-family: PingFangSC-Medium;
-}
-
-.grammarlyHeader > h1 {
-  color: white;
-  margin-left: 230px;
-  font-size: 39px;
-  font-weight: 600;
-}
-
-.grammarlyLogo {
-  position: absolute;
-  bottom: -80px;
-  left: 30px;
-  background-color: white;
-  box-shadow: 0 0 5px 2px dimgrey;
-  border-radius: 100%;
-  padding: 20px;
-}
-
-.grammarlyLogo > img {
-  height: 120px;
-}
-
 .pradaRankContainer {
   padding: 20px;
   padding-left: 230px;
@@ -57,7 +26,6 @@
 .pradaRankChart {
   display: flex;
 }
-
 
 .grammarlyBar {
   justify-content: center;
@@ -99,8 +67,8 @@
 }
 
 .overviewContainer {
-  background-color: #F4F5FA;
-  text-align:center;
+  background-color: #f4f5fa;
+  text-align: center;
 }
 
 .companyDescription {
@@ -108,7 +76,7 @@
   margin-top: 40px;
   display: inline-block;
   vertical-align: top;
-  height: 750px
+  height: 750px;
 }
 
 .companySummaryContainer {
@@ -122,7 +90,7 @@
   display: block;
   font-family: PingFangSC-Medium;
   font-size: 24px;
-  color: #3B4F8C;
+  color: #3b4f8c;
 }
 
 .companySummary {
@@ -143,7 +111,7 @@
   display: block;
   font-family: PingFangSC-Medium;
   font-size: 24px;
-  color: #3B4F8C;
+  color: #3b4f8c;
 }
 
 .companyIndustry {
@@ -156,7 +124,7 @@
 .companyAbout {
   text-align: left;
   display: inline-block;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 600px;
   height: 750px;
   vertical-align: top;
@@ -179,14 +147,14 @@
 
 .companyOfficialWebsite {
   display: block;
-  color: #3B4F8C;
+  color: #3b4f8c;
   font-family: PingFangSC-Medium;
   font-size: 24px;
 }
 
 .companyOfficialWebsiteLink {
   display: block;
-  color: #1170FF;
+  color: #1170ff;
   font-family: PingFangSC-Medium;
   font-size: 18px;
 }
@@ -198,7 +166,7 @@
 
 .companyHeadquarterLocation {
   display: block;
-  color: #3B4F8C;
+  color: #3b4f8c;
   font-family: PingFangSC-Medium;
   font-size: 24px;
 }
@@ -217,7 +185,7 @@
 
 .companySizeTitle {
   display: block;
-  color: #3B4F8C;
+  color: #3b4f8c;
   font-family: PingFangSC-Medium;
   font-size: 24px;
 }
@@ -236,7 +204,7 @@
 
 .dateTitle {
   display: block;
-  color: #3B4F8C;
+  color: #3b4f8c;
   font-family: PingFangSC-Medium;
   font-size: 24px;
 }
@@ -250,12 +218,12 @@
 
 .newsBlock {
   width: 100%;
-  text-align: left
+  text-align: left;
 }
 
 .news {
   display: block;
-  color: #3B4F8C;
+  color: #3b4f8c;
   margin-left: 12.5%;
   font-family: PingFangSC-Medium;
   font-size: 24px;
@@ -265,13 +233,13 @@
   padding: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
 }
 
 .newsintro {
   text-align: left;
   background-color: #ffffff;
-  width: 100%
+  width: 100%;
 }
 
 .newsname {

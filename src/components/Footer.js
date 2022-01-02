@@ -1,46 +1,34 @@
 import React from "react";
-import "./Footer.css";
-import { FaFacebook, FaTwitter, FaDribbble, FaLinkedin } from "react-icons/fa";
+import Logo from "../assets/img/logo.png";
 
-function FooterBar() {
+const Footer = () => {
   return (
-    <footer class="site-footer" style={{ marginTop: "0vh" }}>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">
-              Copyright &copy; 2021 All Rights Reserved by PRADA.
-            </p>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li>
-                <a class="facebook" href="/">
-                  <FaFacebook />
-                </a>
-              </li>
-              <li>
-                <a class="twitter" href="/">
-                  <FaTwitter />
-                </a>
-              </li>
-              <li>
-                <a class="dribbble" href="/">
-                  <FaDribbble />
-                </a>
-              </li>
-              <li>
-                <a class="linkedin" href="/">
-                  <FaLinkedin />
-                </a>
-              </li>
-            </ul>
-          </div>
+    <div className="navbarPlatform">
+      <div className="navbarPlatformTopRow footerPlatformTopRow">
+        <div>
+          <img src={Logo} alt="" />
+          <p>PRADA</p>
+        </div>
+        <div className="navbarLinks">
+          <p>Overview</p>
+          <p>Company</p>
+          <p>Contacts</p>
+        </div>
+        <div className="socialMedias">
+          <i class="fab fa-github"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fas fa-paper-plane"></i>
         </div>
       </div>
-    </footer>
+      <div className="navbarPlatformBottomRow">
+        <p style={{ color: "white", fontWeight: "600" }}>
+          Copyright &copy; Design Inc.
+        </p>
+      </div>
+    </div>
   );
-}
+};
 
-export default FooterBar;
+export default Footer;

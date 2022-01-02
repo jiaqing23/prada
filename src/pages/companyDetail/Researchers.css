@@ -1,0 +1,61 @@
+.profilePic {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.founder {
+  width: 49%;
+  padding: 20px;
+  border: 2px lightgray solid;
+  margin-bottom: 30px;
+  min-height: 200px;
+}
+
+.employee {
+  width: 32%;
+  min-height: 220px;
+}
+
+.founderInfo {
+  align-items: center;
+}
+
+.founderInfo > i {
+  color: rgb(193, 193, 193);
+  font-size: 18px;
+}
+
+.title {
+  color: royalblue;
+  margin: 0;
+  font-weight: 550;
+}
+
+.founderDescription {
+  margin-top: 20px;
+  color: black;
+  font-weight: 530;
+  margin-bottom: 0;
+}
+
+.notKeyEmployee {
+  height: auto;
+  min-height: auto;
+}
+
+.viewMorePeople {
+  width: 100%;
+  background-color: lightgray;
+  padding: 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

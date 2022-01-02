@@ -1,0 +1,107 @@
+.productsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.productsContainer > div:first-child {
+  width: 400px;
+  padding: 0;
+  margin: 0;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.productsContainer > div:first-child > img {
+  margin-right: 10px;
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+.productsContainer > div:first-child > h6 {
+  font-weight: 600;
+}
+
+.productsPagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.productsPagination > div {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  padding: 0;
+  border-bottom: 2px solid lightgrey;
+}
+
+.number {
+  padding: 10px 35px;
+  margin: 0;
+  margin-bottom: -2px;
+  font-weight: 550;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.numberSelected {
+  border-bottom: 3px solid royalblue;
+}
+
+.fundingTop {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.fundingTop > div {
+  background-color: #f3f8ff;
+  padding: 30px;
+  border: 2px solid lightgrey;
+  width: 31%;
+}
+
+.fundingTop > div > h6 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.fundingTop > div > h4 {
+  color: rgb(34, 68, 169);
+  font-size: 650;
+  font-size: 25px;
+}
+
+.rounds {
+  background-color: #f3f8ff;
+  padding: 30px;
+  border: 2px solid lightgrey;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.roundLeft {
+  padding-right: 40px;
+  border-right: 2px lightgrey solid;
+  width: 200px;
+  margin-right: 40px;
+}
+
+.roundLeft > p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.roundLeft > h5 {
+  color: rgb(34, 68, 169);
+}
+
+.rounds > div:last-child > p {
+  font-weight: 550;
+}

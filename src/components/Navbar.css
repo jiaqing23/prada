@@ -1,42 +1,116 @@
-body {
-  font-family: "Abhaya Libre", serif;
-  font-style: normal;
+.navbarPlatform {
+  background-color: #0a1b50;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.logo {
-  width: 1vw;
-  min-width: 50px;
+.navbarPlatformTopRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.navbar {
-  background: #0059bc;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.navbarPlatformTopRow > div:first-child {
+  display: flex;
+  align-items: center;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: #fffef9;
+.navbarPlatformTopRow > div > img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbarPlatformTopRow > div:first-child > p {
+  margin-left: 10px;
+  color: white;
+  font-size: 18px;
   font-weight: 600;
-  font-size: 160%;
-  padding: 0.5rem 2rem;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link:focus {
-  color: #00baff;
-}
-.navbar a {
-  color: #fffef9;
+.navbarPlatformTopRow > div > p {
+  color: white;
+  font-weight: 550;
+  margin-bottom: 0;
 }
 
-.navbar a:hover {
-  color: #998e7f;
+.navbarLinks {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
 }
 
-@media (min-width: 768px) {
-  .navbar-brand.abs {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center;
-  }
+.navbarLinks > * {
+  color: white;
+  font-weight: 550;
+  text-decoration: none;
+}
+
+.navbarLinks > *:hover {
+  color: white;
+  font-weight: 550;
+  text-decoration: none;
+}
+
+.navbarPlatformTopRow > div:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.navbarPlatformTopRow > div:last-child > button {
+  background-color: transparent;
+  border: rgb(240, 59, 59) 2px solid;
+  border-radius: 1000px;
+  color: white;
+  margin-left: 20px;
+  padding: 10px 40px;
+}
+
+.navbarPlatformBottomRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarPlatformBottomRow > div {
+  border: 2px solid tomato;
+  border-radius: 1000px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 70%;
+}
+
+.navbarPlatformBottomRow > div > p {
+  margin-bottom: 0;
+  color: white;
+}
+
+.navbarPlatformBottomRow > div > button {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  border-radius: 1000px;
+  border: none;
+  background-color: #ef436b;
+  color: white;
+  padding: 10px 20px;
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerPlatformTopRow {
+  border-bottom: 2px rgb(78, 77, 113) solid;
+  padding-bottom: 15px;
+}
+
+.socialMedias > i {
+  color: white;
+  margin-left: 10px;
 }
