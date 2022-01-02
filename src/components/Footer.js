@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaDribbble, FaLinkedin } from "react-icons/fa";
 
 function FooterBar() {
   return (
-    <footer class="site-footer" style={{ marginTop: "5vh" }}>
+    <footer class="site-footer" style={{ marginTop: "0vh" }}>
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
