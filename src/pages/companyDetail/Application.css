@@ -5,15 +5,6 @@
   align-items: center;
 }
 
-.productsContainer > div:first-child {
-  width: 400px;
-  padding: 0;
-  margin: 0;
-  padding-right: 30px;
-  display: flex;
-  align-items: center;
-}
-
 .productsContainer > div:first-child > img {
   margin-right: 10px;
   height: 60px;

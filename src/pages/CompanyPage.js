@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/styles";
 import Pagination from "@mui/material/Pagination";
 import { tables } from "./CompanyPageData";
+import Navbar from "components/Navbar";
 
 const useStyles = makeStyles(styles);
 
@@ -162,119 +163,125 @@ export default function ContactPage(props) {
   };
 
   return (
-    <div className={classNames(classes.wholepage)}>
-      <ul className={classNames(classes.tableul)}>
-        <li className={classNames(classes.tableli)}>
-          <Link to={"/company/PRADA"}>
-            <button
-              id="PRADA"
-              type="button"
-              onClick={() => {
-                setTab("PRADA");
-                setPage(1);
-                changeButtonColorFor("PRADA");
-              }}
-              className={classNames(classes.tablebutton)}
-            >
-              PRADA
-            </button>
-          </Link>
-        </li>
-        <li className={classNames(classes.tableli)}>
-          <Link to={"/company/Platform"}>
-            <button
-              id="Platform"
-              type="button"
-              onClick={() => {
-                setTab("Platform");
-                setPage(1);
-                changeButtonColorFor("Platform");
-              }}
-              className={classNames(classes.tablebutton)}
-            >
-              Platform
-            </button>
-          </Link>
-        </li>
-        <li className={classNames(classes.tableli)}>
-          <Link to={"/company/Researchers"}>
-            <button
-              id="Researchers"
-              type="button"
-              onClick={() => {
-                setTab("Researchers");
-                setPage(1);
-                changeButtonColorFor("Researchers");
-              }}
-              className={classNames(classes.tablebutton)}
-            >
-              Researchers
-            </button>
-          </Link>
-        </li>
-        <li className={classNames(classes.tableli)}>
-          <Link to={"/company/Algorithm"}>
-            <button
-              id="Algorithm"
-              type="button"
-              onClick={() => {
-                setTab("Algorithm");
-                setPage(1);
-                changeButtonColorFor("Algorithm");
-              }}
-              className={classNames(classes.tablebutton)}
-            >
-              Algorithm
-            </button>
-          </Link>
-        </li>
-        <li className={classNames(classes.tableli)}>
-          <Link to={"/company/Data"}>
-            <button
-              id="Data"
-              type="button"
-              onClick={() => {
-                setTab("Data");
-                setPage(1);
-                changeButtonColorFor("Data");
-              }}
-              className={classNames(classes.tablebutton)}
-            >
-              Data
-            </button>
-          </Link>
-        </li>
-        <li className={classNames(classes.tableli)}>
-          <Link to={"/company/Applications"}>
-            <button
-              id="Applications"
-              type="button"
-              onClick={() => {
-                setTab("Applications");
-                setPage(1);
-                changeButtonColorFor("Applications");
-              }}
-              className={classNames(classes.tablebutton)}
-            >
-              Applications
-            </button>
-          </Link>
-        </li>
-      </ul>
-      <table className={classNames(classes.contenttable)}>
-        <thead>
-          <tr id="tablehead" className={classNames(classes.tableheadtr)}></tr>
-        </thead>
-        <tbody id="tablebody" className={classNames(classes.tablebody)}></tbody>
-      </table>
-      <div className={classNames(classes.page)}>
-        <Pagination
-          count={Math.ceil(currenttablelength / 16)}
-          showFirstButton
-          showLastButton
-          onChange={changePage}
-        />
+    <>
+      <Navbar />
+      <div className={classNames(classes.wholepage)}>
+        <ul className={classNames(classes.tableul)}>
+          <li className={classNames(classes.tableli)}>
+            <Link to={"/company/PRADA"}>
+              <button
+                id="PRADA"
+                type="button"
+                onClick={() => {
+                  setTab("PRADA");
+                  setPage(1);
+                  changeButtonColorFor("PRADA");
+                }}
+                className={classNames(classes.tablebutton)}
+              >
+                PRADA
+              </button>
+            </Link>
+          </li>
+          <li className={classNames(classes.tableli)}>
+            <Link to={"/company/Platform"}>
+              <button
+                id="Platform"
+                type="button"
+                onClick={() => {
+                  setTab("Platform");
+                  setPage(1);
+                  changeButtonColorFor("Platform");
+                }}
+                className={classNames(classes.tablebutton)}
+              >
+                Platform
+              </button>
+            </Link>
+          </li>
+          <li className={classNames(classes.tableli)}>
+            <Link to={"/company/Researchers"}>
+              <button
+                id="Researchers"
+                type="button"
+                onClick={() => {
+                  setTab("Researchers");
+                  setPage(1);
+                  changeButtonColorFor("Researchers");
+                }}
+                className={classNames(classes.tablebutton)}
+              >
+                Researchers
+              </button>
+            </Link>
+          </li>
+          <li className={classNames(classes.tableli)}>
+            <Link to={"/company/Algorithm"}>
+              <button
+                id="Algorithm"
+                type="button"
+                onClick={() => {
+                  setTab("Algorithm");
+                  setPage(1);
+                  changeButtonColorFor("Algorithm");
+                }}
+                className={classNames(classes.tablebutton)}
+              >
+                Algorithm
+              </button>
+            </Link>
+          </li>
+          <li className={classNames(classes.tableli)}>
+            <Link to={"/company/Data"}>
+              <button
+                id="Data"
+                type="button"
+                onClick={() => {
+                  setTab("Data");
+                  setPage(1);
+                  changeButtonColorFor("Data");
+                }}
+                className={classNames(classes.tablebutton)}
+              >
+                Data
+              </button>
+            </Link>
+          </li>
+          <li className={classNames(classes.tableli)}>
+            <Link to={"/company/Applications"}>
+              <button
+                id="Applications"
+                type="button"
+                onClick={() => {
+                  setTab("Applications");
+                  setPage(1);
+                  changeButtonColorFor("Applications");
+                }}
+                className={classNames(classes.tablebutton)}
+              >
+                Applications
+              </button>
+            </Link>
+          </li>
+        </ul>
+        <table className={classNames(classes.contenttable)}>
+          <thead>
+            <tr id="tablehead" className={classNames(classes.tableheadtr)}></tr>
+          </thead>
+          <tbody
+            id="tablebody"
+            className={classNames(classes.tablebody)}
+          ></tbody>
+        </table>
+        <div className={classNames(classes.page)}>
+          <Pagination
+            count={Math.ceil(currenttablelength / 16)}
+            showFirstButton
+            showLastButton
+            onChange={changePage}
+          />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
