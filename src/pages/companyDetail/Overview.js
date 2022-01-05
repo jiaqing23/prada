@@ -76,13 +76,13 @@ const Platform = ({ page, setPage }) => {
               <Avatar
                 className="newsavatar"
                 alt="S"
-                src={[require("../../assets/img/news.png").default]}
+                src={[require("../../assets/img/grammarly_news1.png").default]}
                 sx={{ width: 371, height: 109, bgcolor: brown[200] }}
                 variant="square"
               />
 
               <div className="newsintro">
-                <div className="newsname">some news</div>
+                <div className="newsname">Specific Methods for Eliminating Bias in Machine Learning</div>
               </div>
             </div>
 
@@ -91,13 +91,28 @@ const Platform = ({ page, setPage }) => {
               <Avatar
                 className="newsavatar"
                 alt="S"
-                src={[require("../../assets/img/news.png").default]}
+                src={[require("../../assets/img/grammarly_news2.png").default]}
                 sx={{ width: 371, height: 109, bgcolor: brown[200] }}
                 variant="square"
               />
 
               <div className="newsintro">
-                <div className="newsname">some news</div>
+                <div className="newsname">14 Tips for Writing a Stellar Product Manager Resume</div>
+              </div>
+            </div>
+
+            {/* A group of Avatar and description */}
+            <div className="newscard">
+              <Avatar
+                className="newsavatar"
+                alt="S"
+                src={[require("../../assets/img/grammarly_news3.png").default]}
+                sx={{ width: 371, height: 109, bgcolor: brown[200] }}
+                variant="square"
+              />
+
+              <div className="newsintro">
+                <div className="newsname">27 Insurtech Companies Making Cove- rage Simpler</div>
               </div>
             </div>
           </Stack>

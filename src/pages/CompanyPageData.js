@@ -2,7 +2,12 @@ export const tables = {
   PRADAtable: [
     {
       Rank: 1,
-      Company: "veda",
+      Company: {
+        CompanyName: "veda",
+        CompanyField: "Healthtech, Machine Learning",
+        CompanyLocation: "Madison, WI",
+        CompanyLogo: "veda.png",
+        },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -11,7 +16,12 @@ export const tables = {
     },
     {
       Rank: 2,
-      Company: "involved.ai",
+      Company: {
+        CompanyName: "involve.ai",
+        CompanyField: "Software, Professional Services",
+        CompanyLocation: "Los Angeles, CA",
+        CompanyLogo: "involveai.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -20,7 +30,12 @@ export const tables = {
     },
     {
       Rank: 3,
-      Company: "CCC",
+      Company: {
+        CompanyName: "Urbint",
+        CompanyField: "Machine Learning, Analytics",
+        CompanyLocation: "NYC",
+        CompanyLogo: "urbint.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -29,7 +44,12 @@ export const tables = {
     },
     {
       Rank: 4,
-      Company: "Circulo Health",
+      Company: {
+        CompanyName: "Circulo Health",
+        CompanyField: "Healthcare",
+        CompanyLocation: "Columbus, OH",
+        CompanyLogo: "circulohealth.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -38,7 +58,12 @@ export const tables = {
     },
     {
       Rank: 5,
-      Company: "Veritone",
+      Company: {
+        CompanyName: "CCC",
+        CompanyField: "Automotive + Insurance",
+        CompanyLocation: "Chicago, IL",
+        CompanyLogo: "ccc.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -47,7 +72,12 @@ export const tables = {
     },
     {
       Rank: 6,
-      Company: "LogicMonitor",
+      Company: {
+        CompanyName: "Veritone",
+        CompanyField: "Big Data",
+        CompanyLocation: "Costa Mesa, CA",
+        CompanyLogo: "veritone.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -56,7 +86,12 @@ export const tables = {
     },
     {
       Rank: 7,
-      Company: "Nate",
+      Company: {
+        CompanyName: "LogicMonitor",
+        CompanyField: "Software",
+        CompanyLocation: "New York, NY",
+        CompanyLogo: "logicmonitor.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -65,7 +100,12 @@ export const tables = {
     },
     {
       Rank: 8,
-      Company: "People.ai",
+      Company: {
+        CompanyName: "Nate",
+        CompanyField: "E-commerce",
+        CompanyLocation: "New York, NY",
+        CompanyLogo: "nate.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -74,7 +114,12 @@ export const tables = {
     },
     {
       Rank: 9,
-      Company: "Moveworks",
+      Company: {
+        CompanyName: "People.ai",
+        CompanyField: "Software",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "peopleai.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -83,7 +128,12 @@ export const tables = {
     },
     {
       Rank: 10,
-      Company: "Grammarly",
+      Company: {
+        CompanyName: "Riskified",
+        CompanyField: "E-commerce",
+        CompanyLocation: "New York, NY",
+        CompanyLogo: "riskified.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -92,7 +142,12 @@ export const tables = {
     },
     {
       Rank: 11,
-      Company: "AlphaSense",
+      Company: {
+        CompanyName: "Moveworks",
+        CompanyField: "Information Technology",
+        CompanyLocation: "Mountain View, CA",
+        CompanyLogo: "moveworks.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -101,7 +156,12 @@ export const tables = {
     },
     {
       Rank: 12,
-      Company: "Tempus",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "Grammarly.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -110,7 +170,12 @@ export const tables = {
     },
     {
       Rank: 13,
-      Company: "Ascent",
+      Company: {
+        CompanyName: "AlphaSense",
+        CompanyField: "Fintech",
+        CompanyLocation: "New York, NY",
+        CompanyLogo: "alphasense.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -119,7 +184,12 @@ export const tables = {
     },
     {
       Rank: 14,
-      Company: "Narrative Science Name",
+      Company: {
+        CompanyName: "Tempus",
+        CompanyField: "Healthtech, Biotech, Big Data",
+        CompanyLocation: "Chicago, IL",
+        CompanyLogo: "tempus.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -128,7 +198,12 @@ export const tables = {
     },
     {
       Rank: 15,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Ascent",
+        CompanyField: "RegTech, Fintech, Legal",
+        CompanyLocation: "Chicago, IL",
+        CompanyLogo: "ascent.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -137,7 +212,12 @@ export const tables = {
     },
     {
       Rank: 16,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Narrative Science Name",
+        CompanyField: "Big Data, Software",
+        CompanyLocation: "Chicago, IL",
+        CompanyLogo: "narrativesciencename.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -146,7 +226,12 @@ export const tables = {
     },
     {
       Rank: 17,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -155,7 +240,12 @@ export const tables = {
     },
     {
       Rank: 18,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -164,7 +254,12 @@ export const tables = {
     },
     {
       Rank: 19,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -173,7 +268,12 @@ export const tables = {
     },
     {
       Rank: 20,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -182,7 +282,12 @@ export const tables = {
     },
     {
       Rank: 21,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -191,7 +296,12 @@ export const tables = {
     },
     {
       Rank: 22,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -200,7 +310,12 @@ export const tables = {
     },
     {
       Rank: 23,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -209,7 +324,12 @@ export const tables = {
     },
     {
       Rank: 24,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -218,7 +338,12 @@ export const tables = {
     },
     {
       Rank: 25,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -227,7 +352,12 @@ export const tables = {
     },
     {
       Rank: 26,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -236,7 +366,12 @@ export const tables = {
     },
     {
       Rank: 27,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -245,7 +380,12 @@ export const tables = {
     },
     {
       Rank: 28,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -254,7 +394,12 @@ export const tables = {
     },
     {
       Rank: 29,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -263,7 +408,12 @@ export const tables = {
     },
     {
       Rank: 30,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -272,7 +422,12 @@ export const tables = {
     },
     {
       Rank: 31,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -281,7 +436,12 @@ export const tables = {
     },
     {
       Rank: 32,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -290,7 +450,12 @@ export const tables = {
     },
     {
       Rank: 33,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -299,7 +464,12 @@ export const tables = {
     },
     {
       Rank: 34,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -308,7 +478,12 @@ export const tables = {
     },
     {
       Rank: 35,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -317,7 +492,12 @@ export const tables = {
     },
     {
       Rank: 36,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -326,7 +506,12 @@ export const tables = {
     },
     {
       Rank: 37,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -335,7 +520,12 @@ export const tables = {
     },
     {
       Rank: 38,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -344,7 +534,12 @@ export const tables = {
     },
     {
       Rank: 39,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -353,7 +548,12 @@ export const tables = {
     },
     {
       Rank: 40,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -362,7 +562,12 @@ export const tables = {
     },
     {
       Rank: 41,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -371,7 +576,12 @@ export const tables = {
     },
     {
       Rank: 42,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -383,7 +593,12 @@ export const tables = {
   Platformtable: [
     {
       Rank: 1,
-      Company: "Nate",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -391,7 +606,12 @@ export const tables = {
     },
     {
       Rank: 2,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -402,7 +622,12 @@ export const tables = {
   Researcherstable: [
     {
       Rank: 1,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -411,7 +636,12 @@ export const tables = {
     },
     {
       Rank: 2,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -423,7 +653,12 @@ export const tables = {
   Algorithmtable: [
     {
       Rank: 1,
-      Company: "Nate",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -431,7 +666,12 @@ export const tables = {
     },
     {
       Rank: 2,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -439,7 +679,12 @@ export const tables = {
     },
     {
       Rank: 3,
-      Company: "Nate",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -447,7 +692,12 @@ export const tables = {
     },
     {
       Rank: 4,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -455,7 +705,12 @@ export const tables = {
     },
     {
       Rank: 5,
-      Company: "Nate",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -463,7 +718,12 @@ export const tables = {
     },
     {
       Rank: 6,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -471,7 +731,12 @@ export const tables = {
     },
     {
       Rank: 7,
-      Company: "Nate",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -479,7 +744,12 @@ export const tables = {
     },
     {
       Rank: 8,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -487,7 +757,12 @@ export const tables = {
     },
     {
       Rank: 9,
-      Company: "Nate",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -495,7 +770,12 @@ export const tables = {
     },
     {
       Rank: 10,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -503,7 +783,12 @@ export const tables = {
     },
     {
       Rank: 11,
-      Company: "Nate",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -511,7 +796,12 @@ export const tables = {
     },
     {
       Rank: 12,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -519,7 +809,12 @@ export const tables = {
     },
     {
       Rank: 13,
-      Company: "Nate",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -527,7 +822,12 @@ export const tables = {
     },
     {
       Rank: 14,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -535,7 +835,12 @@ export const tables = {
     },
     {
       Rank: 15,
-      Company: "Nate",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -543,7 +848,12 @@ export const tables = {
     },
     {
       Rank: 16,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -551,7 +861,12 @@ export const tables = {
     },
     {
       Rank: 17,
-      Company: "Nate",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -559,7 +874,12 @@ export const tables = {
     },
     {
       Rank: 18,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -570,7 +890,12 @@ export const tables = {
   Datatable: [
     {
       Rank: 1,
-      Company: "Riskified",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -579,7 +904,12 @@ export const tables = {
     },
     {
       Rank: 2,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Platform: 4.9,
       Researchers: 7.9,
       Algorithm: 9.8,
@@ -591,7 +921,12 @@ export const tables = {
   Applicationstable: [
     {
       Rank: 1,
-      Company: "Nate",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,
@@ -599,7 +934,12 @@ export const tables = {
     },
     {
       Rank: 2,
-      Company: "Urbint",
+      Company: {
+        CompanyName: "Grammarly",
+        CompanyField: "Company Summary",
+        CompanyLocation: "San Francisco, CA",
+        CompanyLogo: "ntu.png",
+      },
       Publications: 4.9,
       Patents: 35,
       Number_of_articles: 183,

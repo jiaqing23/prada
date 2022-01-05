@@ -33,7 +33,7 @@ export default function ContactPage(props) {
               <Avatar
                 className={classNames(classes.memberavatar)}
                 alt="S"
-                src={[require("../assets/img/idphoto.jpg").default]}
+                src={[require("../assets/img/wenyonggang.png").default]}
                 sx={{ width: 175, height: 175, bgcolor: brown[200] }}
               />
 
@@ -58,16 +58,16 @@ export default function ContactPage(props) {
               <Avatar
                 className={classNames(classes.memberavatar)}
                 alt="S"
-                src={[require("../assets/img/idphoto.jpg").default]}
+                src={[require("../assets/img/cyx.jpg").default]}
                 sx={{ width: 175, height: 175, bgcolor: brown[200] }}
               />
 
               <div className={classNames(classes.memberintro)}>
                 <div className={classNames(classes.membername)}>
-                  WEN Yonggang
+                  CAO Yixin
                 </div>
                 <div className={classNames(classes.memberposition)}>
-                  Associate Dean (Research)
+                  
                 </div>
                 <div className={classNames(classes.memberdescription)}>
                   Nanyang Technological Unversity
@@ -80,16 +80,16 @@ export default function ContactPage(props) {
               <Avatar
                 className={classNames(classes.memberavatar)}
                 alt="S"
-                src={[require("../assets/img/idphoto.jpg").default]}
+                src={[require("../assets/img/yangfan.jpg").default]}
                 sx={{ width: 175, height: 175, bgcolor: brown[200] }}
               />
 
               <div className={classNames(classes.memberintro)}>
                 <div className={classNames(classes.membername)}>
-                  WEN Yonggang
+                  YANG Fan
                 </div>
                 <div className={classNames(classes.memberposition)}>
-                  Associate Dean (Research)
+                  Research Associate (Program Manager)
                 </div>
                 <div className={classNames(classes.memberdescription)}>
                   Nanyang Technological Unversity
@@ -102,16 +102,85 @@ export default function ContactPage(props) {
               <Avatar
                 className={classNames(classes.memberavatar)}
                 alt="S"
-                src={[require("../assets/img/idphoto.jpg").default]}
+                src={[require("../assets/img/changsen.jpg").default]}
                 sx={{ width: 175, height: 175, bgcolor: brown[200] }}
               />
 
               <div className={classNames(classes.memberintro)}>
                 <div className={classNames(classes.membername)}>
-                  WEN Yonggang
+                  YUAN Changsen
                 </div>
                 <div className={classNames(classes.memberposition)}>
-                  Associate Dean (Research)
+                  
+                </div>
+                <div className={classNames(classes.memberdescription)}>
+                  Nanyang Technological Unversity
+                </div>
+              </div>
+            </div>
+          </Stack>
+
+          {/* Avatars (Member) */}
+          <Stack direction="row" justifyContent="center" spacing={20}>
+            {/* A group of Avatar and description */}
+            <div className={classNames(classes.membercard)}>
+              <Avatar
+                className={classNames(classes.memberavatar)}
+                alt="S"
+                src={[require("../assets/img/jiaqing.jpg").default]}
+                sx={{ width: 175, height: 175, bgcolor: brown[200] }}
+              />
+
+              <div className={classNames(classes.memberintro)}>
+                <div className={classNames(classes.membername)}>
+                  TAN Jia Qing
+                </div>
+                <div className={classNames(classes.memberposition)}>
+                  Undergraduate
+                </div>
+                <div className={classNames(classes.memberdescription)}>
+                  Nanyang Technological Unversity
+                </div>
+              </div>
+            </div>
+
+            {/* A group of Avatar and description */}
+            <div className={classNames(classes.membercard)}>
+              <Avatar
+                className={classNames(classes.memberavatar)}
+                alt="S"
+                src={[require("../assets/img/xinying.jpg").default]}
+                sx={{ width: 175, height: 175, bgcolor: brown[200] }}
+              />
+
+              <div className={classNames(classes.memberintro)}>
+                <div className={classNames(classes.membername)}>
+                  GUO Xinying
+                </div>
+                <div className={classNames(classes.memberposition)}>
+                  Undergraduate
+                </div>
+                <div className={classNames(classes.memberdescription)}>
+                  Nanyang Technological Unversity
+                </div>
+              </div>
+            </div>
+
+            {/* A group of Avatar and description */}
+            <div className={classNames(classes.membercard)}>
+              <Avatar
+                className={classNames(classes.memberavatar)}
+                alt="S"
+                src={[require("../assets/img/yehong.jpg").default]}
+                sx={{ width: 175, height: 175, bgcolor: brown[200] }}
+              />
+
+              <div className={classNames(classes.memberintro)}>
+                <div className={classNames(classes.membername)}>
+                  ZHOU Yehong
+                </div>
+                <div className={classNames(classes.memberposition)}>
+                  Master
                 </div>
                 <div className={classNames(classes.memberdescription)}>
                   Nanyang Technological Unversity
@@ -155,14 +224,31 @@ export default function ContactPage(props) {
               <Avatar
                 className={classNames(classes.partneravatar)}
                 alt="S"
-                src={[require("../assets/img/ntu.png").default]}
+                src={[require("../assets/img/nrf.png").default]}
                 sx={{ width: 371, height: 109, bgcolor: brown[200] }}
                 variant="square"
               />
 
               <div className={classNames(classes.partnerintro)}>
                 <div className={classNames(classes.partnername)}>
-                  Nanyang Technological University
+                  National Research Foundation Singapore
+                </div>
+              </div>
+            </div>
+
+            {/* A group of Avatar and description */}
+            <div className={classNames(classes.partnercard)}>
+              <Avatar
+                className={classNames(classes.partneravatar)}
+                alt="S"
+                src={[require("../assets/img/smu.png").default]}
+                sx={{ width: 371, height: 109, bgcolor: brown[200] }}
+                variant="square"
+              />
+
+              <div className={classNames(classes.partnerintro)}>
+                <div className={classNames(classes.partnername)}>
+                  Singapore Management University
                 </div>
               </div>
             </div>
