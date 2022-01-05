@@ -114,7 +114,7 @@
   text-align: left;
   display: inline-block;
   background-color: #ffffff;
-  width: 35%;
+  width: 25%;
   height: 750px;
   vertical-align: top;
   margin-top: 40px;
@@ -209,9 +209,14 @@
 
 .newscard {
   padding: 50px;
+  width: 471px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.newsavatar {
+  width: 100%;
 }
 
 .newsintro {

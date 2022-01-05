@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ReactDOM from 'react-dom'
 import classNames from "classnames";
 import styles from "assets/jss/pages/companyPage.js";
 import { Link } from "react-router-dom";
@@ -7,6 +8,8 @@ import { makeStyles } from "@material-ui/styles";
 import Pagination from "@mui/material/Pagination";
 import { tables } from "./CompanyPageData";
 import Navbar from "components/Navbar";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const useStyles = makeStyles(styles);
 
@@ -135,9 +138,18 @@ export default function ContactPage(props) {
         var td = document.createElement("td");
         td.innerHTML = row[column];
         if (column === "Rank") {
+          td.innerHTML = "";
           if (row[column] === 1 || row[column] === 2 || row[column] === 3) {
-            td.className = classes.ranktop3;
+            var top3div = document.createElement("div");
+            top3div.className = classes.top3div
+            top3div.innerHTML = row[column];
+            td.appendChild(top3div);
+            td.className = classes.ranktop3;            
           } else {
+            var topothers = document.createElement("div");
+            topothers.className = classes.topothers
+            topothers.innerHTML = row[column];
+            td.appendChild(topothers);
             td.className = classes.rankothers;
           }
         } else if (column === "Company") {
@@ -150,11 +162,44 @@ export default function ContactPage(props) {
           companybutton.id = row[column];
 
           var newcompanybutton = editButton(row[column], companybutton);
-          link.innerHTML = row[column];
+          // link.innerHTML = row[column];
+          
+          var companycarddiv = document.createElement("div")
+          var companydescriptiondiv = document.createElement("div")
+          var companynamediv = document.createElement("div")
+          var companyfielddiv = document.createElement("div")
+          var companylocationdiv = document.createElement("div")
+          var companylogodiv = document.createElement("div")
+          var companylogoimg = document.createElement("img")
+
+          companycarddiv.className = classes.companycarddiv;
+          companydescriptiondiv.className = classes.companydescriptiondiv;
+          companynamediv.className = classes.companynamediv;
+          companyfielddiv.className = classes.companyfielddiv;
+          companylocationdiv.className = classes.companylocationdiv;
+          companylogodiv.className = classes.companylogodiv;
+          companylogoimg.className = classes.companylogoimg;
+
+          companynamediv.innerHTML = row[column]["CompanyName"]
+          companyfielddiv.innerHTML = row[column]["CompanyField"]
+          companylocationdiv.innerHTML = row[column]["CompanyLocation"]
+          // companylogoimg.src = row[column]["CompanyLogo"]
+          var imgurl = row[column]["CompanyLogo"]
+          companylogoimg.src = require("../assets/img/" + imgurl).default
+
+          companydescriptiondiv.appendChild(companynamediv)
+          companydescriptiondiv.appendChild(companyfielddiv)
+          companydescriptiondiv.appendChild(companylocationdiv)
+          companylogodiv.appendChild(companylogoimg)
+          companycarddiv.appendChild(companylogodiv)
+          companycarddiv.appendChild(companydescriptiondiv)
+          link.appendChild(companycarddiv)
           newcompanybutton.appendChild(link);
 
           td.appendChild(newcompanybutton);
           td.className = classes.companytd;
+        }else{
+          td.className = classes.tabletd;
         }
         tbodytr.appendChild(td);
       }

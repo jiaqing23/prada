@@ -63,7 +63,7 @@ const CompanyDetail = () => {
           </div>
           <div className="pradaRank pradaRankChart">
             <h4>Prada Radar Chart</h4>
-            <img src={PradaGraph} alt="" />
+            <img src={PradaGraph} height="210" alt="" />
           </div>
         </div>
         <div className="grammarlyBar">
