@@ -99,8 +99,8 @@ NeoGraph.defaultProps = {
   width: "100vw",
   height: "100vh",
   containerId: "id0",
-  neo4jUri: "bolt://3.95.134.255:7687",
+  neo4jUri: "bolt://3.218.156.230:7687",
   neo4jUser: "neo4j",
-  neo4jPassword: "talks-refrigerator-dial",
+  neo4jPassword: "intent-homes-rinse",
   backgroundColor: "#1A3071",
 };
